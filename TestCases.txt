@@ -1,0 +1,295 @@
+Enter a command (type help for details): 
+create 1 1 slow
+Input a name for the new piece: 
+demo
+Input a colour for the new piece: 
+1
+Created new game piece.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 1 1 right
+Piece at (1, 1) moved right by 1 space.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	-	demo1S-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 1 2 left
+Piece at (1, 2) moved left by 1 space.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+create 2 4 fast
+Input a name for the new piece: 
+demo
+Input a colour for the new piece: 
+2
+Created new game piece.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	demo2F-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 2 4 right 2
+Piece at (2, 4) moved right by 2 spaces
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	-	-	demo2F-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 2 6 left 2
+Piece at (2, 6) moved left by 2 spaces
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	demo2F-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+create 3 1 slow flexible
+Input a name for the new piece: 
+demo
+Input a colour for the new piece: 
+3
+Created new game piece.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	demo2F-	-	-	
+-	demo3SF-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 3 1 up
+Piece at (3, 1) moved up by 1 space.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	demo3SF-	-	demo2F-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 2 1 right
+Piece at (2, 1) moved right by 1 space.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	demo3SF-	demo2F-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 2 2 left
+Piece at (2, 2) moved left by 1 space.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	demo3SF-	-	demo2F-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 2 1 down
+Piece at (2, 1) moved down by 1 space.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	demo2F-	-	-	
+-	demo3SF-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+create 4 5 fast flexible
+Input a name for the new piece: 
+demo
+Input a colour for the new piece: 
+4
+Created new game piece.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	demo2F-	-	-	
+-	demo3SF-	-	-	-	-	-	
+-	-	-	-	-	demo4FF-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 4 5 down 2
+Piece at (4, 5) moved down by 2 spaces
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	demo2F-	-	-	
+-	demo3SF-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	demo4FF-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 6 5 right 2
+Piece at (6, 5) moved right by 2 spaces
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	demo2F-	-	-	
+-	demo3SF-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	demo4FF
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 6 7 left 2
+Piece at (6, 7) moved left by 2 spaces
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	-	-	-	demo2F-	-	-	
+-	demo3SF-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	demo4FF-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 3 1 up
+Piece at (3, 1) moved up by 1 space.
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	demo3SF-	-	demo2F-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	demo4FF-	-	
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 2 1 up
+Error: move cannot be made, blocked by another piece.
+
+Enter a command (type help for details): 
+move 6 5 right 2
+Piece at (6, 5) moved right by 2 spaces
+
+Enter a command (type help for details): 
+move 6 5 right 2
+Error: no piece at (6, 5)
+
+Enter a command (type help for details): 
+print
+-	-	-	-	-	-	-	-	
+-	demo1S-	-	-	-	-	-	
+-	demo3SF-	-	demo2F-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	-	
+-	-	-	-	-	-	-	demo4FF
+-	-	-	-	-	-	-	-	
+
+Enter a command (type help for details): 
+move 6 7 right 2
+The direction or jump value is inaccurate.
+
+Enter a command (type help for details): 
+help
+Possible commands are as follow:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+
+Enter a command (type help for details): 
+exit
+Done.
