@@ -1,6 +1,6 @@
 # board-game
 
-This is a simple board game simulation with pieces that can be created, moved, and displayed on an 8x8 game board. There are four types of pieces: SlowPiece, FastPiece, SlowFlexiblePiece, and FastFlexiblePiece. Each piece has a name, color, and position on the board.
+This is a board game simulation with pieces that can be created, moved, and displayed on an 8x8 game board. There are four types of pieces: SlowPiece, FastPiece, SlowFlexiblePiece, and FastFlexiblePiece. Each piece has a name, color, and position on the board.
 
 Piece Class:
 
